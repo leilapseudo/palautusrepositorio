@@ -1,4 +1,6 @@
+"""Defines the Player class."""
 class Player:
+    """Represents an NHL player."""""
     def __init__(self, player):
         self.name = player["name"]
         self.nationality = player["nationality"]

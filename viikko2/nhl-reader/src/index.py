@@ -1,10 +1,12 @@
-from player_reader import PlayerReader
-from player_stats import PlayerStats
+"""Runs the NHL statistics application."""
 from rich.console import Console
 from rich.table import Table
 
+from player_reader import PlayerReader
+from player_stats import PlayerStats
 
 def main():
+    """Run the NHL statistics application."""
     console = Console()
 
     season = input("Choose season (e.g. 2024-25): ").strip()
